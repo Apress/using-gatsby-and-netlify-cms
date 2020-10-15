@@ -1,0 +1,11 @@
+#main {
+  padding: 1rem;
+}
+
+#main h1 {
+  margin: 0;
+}
+
+#menu {
+  display: flex;
+}

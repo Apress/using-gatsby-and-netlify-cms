@@ -1,0 +1,28 @@
+#header {
+  font-family: 'Oswald', sans-serif;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+#header #inner {
+  background: rgba(119, 79, 56, 0.85);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#header h1 {
+  margin: 0;
+  flex-grow: 1;
+}
+
+#header h1 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#header a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0.5rem;
+}

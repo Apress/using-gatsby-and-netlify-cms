@@ -1,0 +1,11 @@
+{
+  allFile(filter: { name: { eq: "2020-03-06-welcome-to-the-coffee-blog" } }) {
+    edges {
+      node {
+        extension
+        dir
+        modifiedTime
+      }
+    }
+  }
+}

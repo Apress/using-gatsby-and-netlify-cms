@@ -1,0 +1,15 @@
+{
+  markdownRemark(frontmatter: { contentKey: { eq: "menu" } }) {
+    frontmatter {
+      title
+      categories {
+        name
+        items {
+          name
+          description
+          price
+        }
+      }
+    }
+  }
+}

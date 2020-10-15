@@ -1,0 +1,13 @@
+{
+  site {
+    siteMetadata {
+      title
+    }
+  }
+  markdownRemark(frontmatter: { contentKey: { eq: "indexPage" } }) {
+    frontmatter {
+      tagline
+      heroImage
+    }
+  }
+}

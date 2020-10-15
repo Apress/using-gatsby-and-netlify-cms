@@ -1,0 +1,29 @@
+.category {
+  margin: 1rem 2rem;
+  width: 15rem;
+}
+
+.category h2 {
+  margin: 0;
+  margin-bottom: 1px solid #774f38;
+}
+
+.category ul {
+  padding: 0;
+}
+
+.category li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.description {
+  font-style: italic;
+}

@@ -1,0 +1,30 @@
+#hero {
+  background: url('/latte.jpg');
+  background-size: cover;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.blog-list {
+  padding: 1rem;
+}
+
+#page-links {
+  padding: 1rem;
+}
+
+#page-links a {
+  margin: 1rem;
+}

@@ -1,0 +1,12 @@
+query BlogQuery {
+  allMarkdownRemark {
+    edges {
+      node {
+        html
+        frontmatter {
+          title
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "componentChunkName": "component---src-templates-blog-js",
+  "path": "/2020-06-21-welcome-to-the-coffee-blog/",
+  "result": {
+    "data": {
+      "markdownRemark": {
+        "html": "<p><img src=\"/img/coffee.jpeg\" alt=\"coffee cup\" title=\"A delicious cup of coffee\"></p>\n<h1>Hello!</h1>\n<p>Welcome to the <strong>Coffee Blog</strong>. This is our first blog post. Stay tuned for more information soon!</p>",
+        "frontmatter": { "title": "Welcome to the Coffee Blog" }
+      }
+    },
+    "pageContext": { "slug": "/2020-06-21-welcome-to-the-coffee-blog/" }
+  }
+}

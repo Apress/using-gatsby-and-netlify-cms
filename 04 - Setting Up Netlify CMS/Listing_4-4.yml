@@ -1,0 +1,9 @@
+name: John Doe
+contact:
+  - type: email,
+    value: jdoe@gmail.com
+  - type: phone,
+    value: 617-555-1234
+skills:
+  - javascript
+  - html

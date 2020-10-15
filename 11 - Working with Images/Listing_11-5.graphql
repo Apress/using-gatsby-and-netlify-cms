@@ -1,0 +1,19 @@
+fragment MenuFields on MarkdownRemark {
+  frontmatter {
+    title
+    categories {
+      name
+      items {
+        name
+        description
+        price
+      }
+    }
+  }
+}
+
+{
+  markdownRemark(frontmatter: { contentKey: { eq: "menu" } }) {
+   	...MenuFields 
+  }
+}

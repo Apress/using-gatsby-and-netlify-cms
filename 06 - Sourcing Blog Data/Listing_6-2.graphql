@@ -1,0 +1,11 @@
+{
+  allFile {
+    edges {
+      node {
+        extension
+        dir
+        modifiedTime
+      }
+    }
+  }
+}
